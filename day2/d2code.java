@@ -9,7 +9,7 @@ public class d2code {
 
     public static void main(String[] args){
         try {
-            File file = new File("day2/directions.txt");
+            File file = new File("day2/input.txt");
             Scanner sc = new Scanner(file);
             int height = 0;
             int distance = 0; 
