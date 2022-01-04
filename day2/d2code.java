@@ -1,14 +1,15 @@
+package day2;
 import java.util.Scanner;
 import java.io.FileNotFoundException;
 import java.io.File;
 
-public class TestingShit {
+public class d2code {
 
 
 
     public static void main(String[] args){
         try {
-            File file = new File("directions.txt");
+            File file = new File("day2/directions.txt");
             Scanner sc = new Scanner(file);
             int height = 0;
             int distance = 0; 
@@ -30,7 +31,7 @@ public class TestingShit {
             sc.close();
         }
         catch(Exception FileNotFoundException) {
-            System.out.println("shit");
+            System.out.println("notfound???");
         }
         
     }
